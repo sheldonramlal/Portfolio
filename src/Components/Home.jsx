@@ -10,7 +10,7 @@ const Home = () => {
                 <p className='text-center  animate-text bg-gradient-to-r from-teal-500  via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black'>Junior Developer</p>
             </div>
 
-            <div className='w-full h-full lg:w-1/3  flex justify-center items-center'>
+            <div className='w-full h-full lg:w-1/3  flex justify-center items-start lg:items-center '>
                 <Slideshow />
             </div>
 
