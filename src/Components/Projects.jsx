@@ -34,7 +34,7 @@ const Projects = () => {
     {
       name : "Celestial Essence",
       website: "https://celestial-essence.com",
-      description: "A modern E-commerce website for a hand crafted scented candles, using Wordpress and Woocommerce",
+      description: "A modern E-commerce website for hand crafted scented candles, using Wordpress and Woocommerce",
       icons : ['/wordpress.png']
     }
   ]
