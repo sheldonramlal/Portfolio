@@ -30,6 +30,12 @@ const Projects = () => {
       website: "https://where-we-eating.vercel.app",
       description: "A frontend app built using React which randomly shows restaurants across Trinidad. Users can also view restaurant's menu or order online if available. The restaurant's rating, distance from the user, if it is costly, and a handful of reviews are all included to help guide them where to eat. There is also the option to toggle 'Restaurants near me' for restaurants nearby.",
       icons: ['/js.jpg','/react.png', '/tailwind.png'],
+    },
+    {
+      name : "Celestial Essence",
+      website: "https://celestial-essence.com",
+      description: "A modern E-commerce website for a hand crafted scented candles, using Wordpress and Woocommerce",
+      icons : ['/wordpress.png']
     }
   ]
 
@@ -50,11 +56,15 @@ const Projects = () => {
 
                       <div className='flex h-6 '>
 
+                        {
+                          d.github && (
                         <div className='mx-2 rounded-md border-2 border-neutral-800 '>
                           <a href={d.github} target='_blank'>
                             <img src='/github.png' className='w-6 h-6 bg-white rounded-md '/>
                           </a>
                         </div>
+                          )
+                        }    
 
                         <div className='border-2 border-neutral-800 rounded-md'>
                           <a href={d.website} target='_blank'>
