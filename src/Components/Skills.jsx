@@ -26,6 +26,10 @@ const Skills = () => {
     {
       name: "Node Js",
       img: "/node.png"
+    },
+    {
+      name: "WordPress",
+      img: '/wordpress.png'
     }
 
 ]
