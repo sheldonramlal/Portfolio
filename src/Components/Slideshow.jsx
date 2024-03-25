@@ -56,6 +56,10 @@ const Slideshow = () => {
             <img src='/node.png' className='bg-contain h-36 w-36 m-auto '/>
             
         </div>
+        <div className='w-full h-full'>
+            <img src='/express.png' className='bg-contain h-36 w-36 m-auto '/>
+            
+        </div>
 
 
    </Slider>
