@@ -4,18 +4,18 @@ const Projects = () => {
 
   const data = [
     {
-      name : "Lift Logix",
-      github: "https://github.com/sheldonramlal/liftlogix-frontend",
-      website: "https://liftlogix.onrender.com",
-      description: "A fullstack workout tracking app created using React, Node, Express and MongoDB. It allows for users to log in or register an account to use the app. Users can log their workouts, delete them or simply view all of their past workouts. Users can also view their dashboard which includes data about all their workouts such as total reps and weight lifted, and their favorite workout",
-      icons: ['/js.jpg','/react.png', '/tailwind.png', '/node.png'],
-    },
-    {
       name : "ReadIT",
       github: "https://github.com/sheldonramlal/watchlist-frontend",
       website: "https://watchlist-frontend-7nd5.onrender.com/",
       description: "Developed a dynamic full-stack website using React, Node.js, Express, and MongoDB, enabling users to explore a diverse range of books by category, search for specific titles, and conveniently purchase them. Implemented user authentication for personalized features, allowing users to sign up and curate their reading lists seamlessly.",
-      icons: ['/js.jpg','/react.png', '/tailwind.png', '/node.png'],
+      icons: ['/js.jpg','/react.png', '/tailwind.png', '/node.png', 'express.png'],
+    },
+    {
+      name : "Lift Logix",
+      github: "https://github.com/sheldonramlal/liftlogix-frontend",
+      website: "https://liftlogix.onrender.com",
+      description: "A fullstack workout tracking app created using React, Node, Express and MongoDB. It allows for users to log in or register an account to use the app. Users can log their workouts, delete them or simply view all of their past workouts. Users can also view their dashboard which includes data about all their workouts such as total reps and weight lifted, and their favorite workout",
+      icons: ['/js.jpg','/react.png', '/tailwind.png', '/node.png', 'express.png'],
     },
     {
       name : "ISS tracker",

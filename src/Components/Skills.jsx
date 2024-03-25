@@ -28,6 +28,10 @@ const Skills = () => {
       img: "/node.png"
     },
     {
+      name: "Express Js",
+      img: '/express.png'
+    },
+    {
       name: "WordPress",
       img: '/wordpress.png'
     }
