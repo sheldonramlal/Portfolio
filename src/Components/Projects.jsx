@@ -4,6 +4,20 @@ const Projects = () => {
 
   const data = [
     {
+      name : "Lift Logix",
+      github: "https://github.com/sheldonramlal/liftlogix-frontend",
+      website: "https://liftlogix.onrender.com",
+      description: "A fullstack workout tracking app created using React, Node, Express and MongoDB. It allows for users to log in or register an account to use the app. Users can log their workouts, delete them or simply view all of their past workouts. Users can also view their dashboard which includes data about all their workouts such as total reps and weight lifted, and their favorite workout",
+      icons: ['/js.jpg','/react.png', '/tailwind.png', '/node.png'],
+    },
+    {
+      name : "ReadIT",
+      github: "https://github.com/sheldonramlal/watchlist-frontend",
+      website: "https://watchlist-frontend-7nd5.onrender.com/",
+      description: "Developed a dynamic full-stack website using React, Node.js, Express, and MongoDB, enabling users to explore a diverse range of books by category, search for specific titles, and conveniently purchase them. Implemented user authentication for personalized features, allowing users to sign up and curate their reading lists seamlessly.",
+      icons: ['/js.jpg','/react.png', '/tailwind.png', '/node.png'],
+    },
+    {
       name : "ISS tracker",
       github: "https://github.com/sheldonramlal/isstracker",
       website: "https://sheldonramlal.github.io/isstracker/",
@@ -16,13 +30,6 @@ const Projects = () => {
       website: "https://weather-app-sr-react.netlify.app/",
       description: "A Weather app created using React and tailwind. It fetches data about the current and hourly weather and the air quality index from the Openweathermap API. It also has a search function to find out the weather of any location as well as the user's location using their geolocation data. Using tailwind, it also has a dynamic background which changes after sunrise and sunset.",
       icons: ['/js.jpg','/react.png', '/tailwind.png' ],
-    },
-    {
-      name : "Lift Logix",
-      github: "https://github.com/sheldonramlal/liftlogix-frontend",
-      website: "https://liftlogix.onrender.com",
-      description: "A fullstack workout tracking app created using React, Node, Express and MongoDB. It allows for users to log in or register an account to use the app. Users can log their workouts, delete them or simply view all of their past workouts. Users can also view their dashboard which includes data about all their workouts such as total reps and weight lifted, and their favorite workout",
-      icons: ['/js.jpg','/react.png', '/tailwind.png', '/node.png'],
     },
     {
       name : "Where we eating",
