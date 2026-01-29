@@ -7,10 +7,12 @@ export default {
   theme: {
     
     extend: {
-        fontFamily: {
-          poppins: "Poppins",
-          inter : "Inter"
-        },
+       fontFamily: {
+        switzer: ["Switzer", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+      },
+
         colors: {
           'gray': '#e1e1e1'
         },
