@@ -129,7 +129,7 @@ const Navbar = () => {
                         </li>
 
                         <li className="menu-item">
-                            <a href="github.com/sheldonramlal" onClick={toggleMenu}>Github</a>
+                            <a href="https://github.com/sheldonramlal" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>Github</a>
                         </li>
                     </ul>
 
