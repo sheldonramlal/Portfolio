@@ -50,7 +50,7 @@ const Navbar = () => {
 
   return (
     <>
-    <div className='absolute flex justify-end w-full text-white border-b border-[#2a2a2a] z-50 px-5 py-4 md:px-16'>
+    <div className='absolute top-0  flex justify-end w-full text-white border-b border-[#2a2a2a] z-50 px-5 py-4 md:px-16'>
        {/* menu icon */}
         <div onClick={toggleMenu} className='cursor-pointer '>
             <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,21 +83,21 @@ const Navbar = () => {
 
                 </div>
                 <nav className="flex justify-center w-full h-full text-white ">
-                    <ul className='flex flex-col  p-10 w-full  h-3/4  justify-around  *:text-6xl   font-switzer text-4xl md:text-6xl *:py-10 *:border-b *:border-dashed *:border-[#2a2a2a] '>
+                    <ul className='flex flex-col  p-10 w-full  h-3/4  justify-around   font-switzer *:text-4xl *:md:text-6xl *:py-10 *:border-b *:border-dashed *:border-[#2a2a2a] '>
                         <li className="menu-item">
-                            <a href="#home" onClick={toggleMenu}>Home</a>
+                            <a href="/#home" onClick={toggleMenu}>Home</a>
                         </li>
 
                         <li className="menu-item">
-                            <a href="#about" onClick={toggleMenu}>About</a>
+                            <a href="/#about" onClick={toggleMenu}>About</a>
                         </li>
 
                         <li className="menu-item">
-                            <a href="#work" onClick={toggleMenu}>Work</a>
+                            <a href="/#work" onClick={toggleMenu}>Work</a>
                         </li>
 
                         <li className="menu-item">
-                            <a href="#contact" onClick={toggleMenu}>Contact</a>
+                            <a href="/#contact" onClick={toggleMenu}>Contact</a>
                         </li>
 
                         <li className="menu-item">
